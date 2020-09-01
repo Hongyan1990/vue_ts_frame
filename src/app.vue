@@ -5,10 +5,11 @@
 </template>
 
 <script lang="ts">
+	import Vue from 'vue'
+	import Component from 'vue-class-component'
 
-	export default {
-		name: 'app',
-	}
+	@Component({})
+	export default class App extends Vue {}
 </script>
 
 <style >
